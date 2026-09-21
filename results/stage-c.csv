@@ -1,0 +1,17 @@
+stage,focal_agent,focal_color,orange_agent,black_agent,orange_depth,black_depth,orange_seed,black_seed,max_plies,max_llm_calls,max_think_seconds,live,status,exit_status,error,result,reason,plies,orange_utility,black_utility,orange_time,black_time,orange_generated,orange_evaluated,orange_maximum_depth,orange_model_calls,orange_fallback_calls,orange_cache_hits,black_generated,black_evaluated,black_maximum_depth,black_model_calls,black_fallback_calls,black_cache_hits,stdout,stderr
+c,llm_direct,orange,llm_direct,minimax_3,1,1,0,0,60,,3600.0,True,ok,0,,BLACK,win,10,-1,1,32.656668,0.097442,,,,5,5,,301,301,1,,,,"result=BLACK reason=win plies=10 orange_utility=-1 black_utility=1 orange_time=32.656668s black_time=0.097442s
+agent=orange name='Orange Direct LLM' model_calls=5 fallback_calls=5
+agent=black name='Black Minimax 3' generated=301 evaluated=301 maximum_depth=1
+",
+c,llm_direct,black,minimax_3,llm_direct,1,1,0,0,60,,3600.0,True,ok,0,,BLACK,win,10,-1,1,0.057147,32.727480,253,253,1,,,,,,,5,5,,"result=BLACK reason=win plies=10 orange_utility=-1 black_utility=1 orange_time=0.057147s black_time=32.727480s
+agent=orange name='Orange Minimax 3' generated=253 evaluated=253 maximum_depth=1
+agent=black name='Black Direct LLM' model_calls=5 fallback_calls=5
+",
+c,llm_direct,orange,llm_direct,minimax_3,1,1,1,0,60,,3600.0,True,ok,0,,BLACK,win,10,-1,1,32.709495,0.097782,,,,5,5,,301,301,1,,,,"result=BLACK reason=win plies=10 orange_utility=-1 black_utility=1 orange_time=32.709495s black_time=0.097782s
+agent=orange name='Orange Direct LLM' model_calls=5 fallback_calls=5
+agent=black name='Black Minimax 3' generated=301 evaluated=301 maximum_depth=1
+",
+c,llm_direct,black,minimax_3,llm_direct,1,1,0,1,60,,3600.0,True,ok,0,,BLACK,win,10,-1,1,0.061874,32.845830,253,253,1,,,,,,,5,5,,"result=BLACK reason=win plies=10 orange_utility=-1 black_utility=1 orange_time=0.061874s black_time=32.845830s
+agent=orange name='Orange Minimax 3' generated=253 evaluated=253 maximum_depth=1
+agent=black name='Black Direct LLM' model_calls=5 fallback_calls=5
+",
