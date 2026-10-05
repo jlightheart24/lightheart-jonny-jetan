@@ -1,9 +1,9 @@
 # Designing and Evaluating Jetan Agents
 
-**Student:** [Jonny Lighthear]<br>
-**Private repository:** [URL]<br>
+**Student:** Jonny Lightheart<br>
+**Private repository:** https://github.com/jlightheart24/lightheart-jonny-jetan<br>
 **Access:** [Confirm `fractal13` has read access]<br>
-**Submitted commit:** [Hash]
+**Submitted commit:** [ad15c05573f04b0003143ad209f6680ab738fd08]
 
 ## 1. Deterministic Evaluation Functions
 
